@@ -1,6 +1,6 @@
 services:
   treasury-rf:
-    image: jeserna/treasury-rf:v0.0.6
+    image: jeserna/treasury-rf:v0.0.42
     container_name: treasury-rf
     env_file:
       - ${SECRETS_DIR:-/opt/secrets}/common-configs.env
